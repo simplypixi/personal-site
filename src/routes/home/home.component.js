@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import {  } from 'styled-components';
 
 import Page from '../../shared/components/page/page.component';
 
@@ -10,9 +9,7 @@ const Home = ({ pageContext: { data } }) => {
 
   return (
     <Page>
-      <Helmet
-        title={data.name}
-      />
+      <Helmet title={data.name} />
       <Container>
         <Email href={`mailto:${data.email}`}>{data.email}</Email>
       </Container>
