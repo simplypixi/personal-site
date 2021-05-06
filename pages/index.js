@@ -68,6 +68,31 @@ export default function Home() {
         <title>Mariusz Wójcik | Frontend Developer</title>
         <meta name="description" content="Are you looking for a skilled dev? Let’s talk!" />
         <link rel="icon" href="/favicon.ico" />
+
+          <link
+            rel="preload"
+            href="/fonts/raleway/Raleway-Light.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/raleway/Raleway-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/raleway/Raleway-SemiBold.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/raleway/Raleway-Bold.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
 
       <Main>
